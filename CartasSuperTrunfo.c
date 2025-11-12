@@ -20,7 +20,7 @@ int main() {
   scanf ("%c", &estado1);//Aqui eu coleto o Estado que o usuário digitar.
 
   printf ("Digite o código da carta: ");
-  scanf ("%s", codigo1);//Coletando o codigo da carta(string não precisa de &)
+  scanf ("%s", codigo1);//Coletando o codigo da carta (string não precisa de &)
 
   printf ("Digite o nome da cidade: ");
   scanf ("%s", cidade1);//coletando o nome da cidade
@@ -62,7 +62,7 @@ int main() {
   printf ("Digite o número de pontos turisticos da cidade: ");
   scanf ("%d", &pturis2);
   
-  //Agora que coletamos todas as informações, vamos exibilas...----------------------------------------------------------------------------------------------------
+  //Agora que coletamos todas as informações, vamos exibi-las...----------------------------------------------------------------------------------------------------
   // Área para exibição dos dados da cidade
 
   printf ("-----------------------------\n");
