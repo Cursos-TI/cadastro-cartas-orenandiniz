@@ -111,15 +111,15 @@ int main()
   printf("Comparação de cartas (Atributo: População): \n");
   printf("Carta 1 (%s): %lu\n", cidade1, pop1);
   printf("Carta 2 (%s): %lu\n", cidade2, pop2);
-  if (pop1 > pop2)
+  if (pop1 > pop2)//Aqui eu disse que se a população 1 for maior que a população 2...
   {
-    printf ("Resultado: A carta 1 venceu!\n");
+    printf ("Resultado: A carta 1 venceu!\n");//Então devemos imprimir que a carta 1 venceu
   }
   else
   {
-    printf ("Resultado: A carta 2 venceu!\n");
+    printf ("Resultado: A carta 2 venceu!\n");//Caso a população1 não for maior que a população2 então a carta 2 venceu
   }
-  
+  //Poderiamos adicionar mais um else para caso tivesse um empate.
   printf("=======================================================\n");
 
   return 0;
